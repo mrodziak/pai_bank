@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe4e1; 
+    color: #6b3e26;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #fff0f5; 
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #d63384; 
+}
+
+button {
+    background-color: #ff85a2; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+    button:hover {
+        background-color: #ff5c8a; 
+    }
+
+input {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ffb6c1;
+    margin: 5px;
+}
+
+table {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ffccd5;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap'); /* czcionka */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+table tr:hover {
+    background-color: #ffe6ea; /* podswietlenie */
+    transition: 0.3s;
+}
+
+button:active { /* klikanie */
+    transform: scale(0.95);
+}
